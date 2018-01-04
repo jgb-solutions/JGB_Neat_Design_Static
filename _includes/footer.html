@@ -1,6 +1,6 @@
-<footer class="bg-blue">
-	<div class="container text-center">
-		<div class="row">
+<footer class="grey darken-4">
+	<div class="container">
+		<div class="row no-mb">
 			<div class="col-lg-8 col-lg-offset-2">
 				<div class="row">
 					<div class="col-sm-4 col-xs-6">
@@ -36,18 +36,6 @@
 							</a>
 						</p>
 					</div>
-
-					<!-- <div class="col-sm-3 col-xs-6">
-						<p>
-							<a
-								href="https://facebook.com/"
-								target="blank"
-								class="btn btn-danger ">
-								<i class="fa fa-youtube fa-fw"></i>
-								<span class="network-name">youtube</span>
-							</a>
-						</p>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -61,9 +49,11 @@
 	</div>
 </footer>
 
-<script src="/assets/js/vendor.js?{{ site.time }}"></script>
-<script src="/assets/js/site.js?{{ site.time }}"></script>
-
+<!--JavaScript at end of body for optimized loading-->
+<script src="/assets/dist/js/materialize.min.js"></script>
+<script>
+	var elem = document.querySelector('.sidenav');
+	var instance = M.Sidenav.init(elem);
+</script>
 </body>
-
 </html>
