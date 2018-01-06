@@ -2,13 +2,15 @@
 	<nav class="grey darken-4">
 		<div class="container">
 			<div class="nav-wrapper">
-			<a href="/" class="brand-logo"><img src="/assets/images/logo-jgbnd-small.png" class="responsive-img" style="width:180px"></a>
-			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			<ul class="right">
-			<li><a href="#about"><i class="material-icons left">info</i>About</a></li>
-			<li><a href="#services"><i class="material-icons left">build</i>Services</a></li>
-			<li><a href="#work"><i class="material-icons left">work</i>Work</a></li>
-			<li><a href="#contact"><i class="material-icons left">email</i>Contact</a></li>
+			<a href="/" class="brand-logo"><img src="/assets/images/logo-jgbnd-small.png" class="responsive-img" style="width:155px"></a>
+			<a href="#" data-target="mobile-menu" class="sidenav-trigger">
+				<i class="material-icons">menu</i>
+			</a>
+			<ul class="right hide-on-med-and-down">
+				{% include partials/menu-links.html %}
+			</ul>
+			<ul id="mobile-menu" class="sidenav grey darken-4">
+				{% include partials/menu-links.html %}
 			</ul>
 		</div>
 		</div>

@@ -50,10 +50,15 @@
 </footer>
 
 <!--JavaScript at end of body for optimized loading-->
+<!-- <script src="/assets/dist/js/jquery.min.js"></script> -->
 <script src="/assets/dist/js/materialize.min.js"></script>
 <script>
 	var elem = document.querySelector('.sidenav');
-	var instance = M.Sidenav.init(elem);
+	var instance = M.Sidenav.init(elem, {closeOnClick: true});
+	// $(function() {
+		// console.log('yeah')
+		// $(".sidenav-trigger").sideNav();
+	// });
 </script>
 </body>
 </html>

@@ -77,8 +77,26 @@
 				margin-bottom: -20px;
 			}
 
+			.sidenav-overlay {
+				z-index: 996 !important;
+			}
+			@media screen and (min-width: 853px) {
+				.my-img-bottom {
+					position: relative;
+					min-height: 555px !important;
+				}
+				.my-img-bottom  img {
+					position: absolute;
+					bottom: 0;
+				}
+			}
+			@media screen and (max-width: 600px) {
+				#about {
+					margin-bottom: -26px;
+				}
+			}
 
-			
+
 		</style>
 		<!--Import materialize.css-->
 		<link type="text/css" rel="stylesheet" href="/assets/dist/css/materialize.min.css"  media="screen,projection"/>
