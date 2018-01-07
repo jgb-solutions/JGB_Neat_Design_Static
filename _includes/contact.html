@@ -13,26 +13,26 @@
                 <div class="row">
                     <form class="col s12" netlify method="POST" action="/thank-you.html">
                         <div class="input-field">
-                            <input placeholder="Enter Your Full Name" id="full_name" type="text" class="validate" required>
+                            <input name="full_name" placeholder="Enter Your Full Name" id="full_name" type="text" class="validate" required>
                             <label for="full_name">Full Name</label>
                             <span class="helper-text" data-error="Your full name is required"></span>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input placeholder="Enter Your E-mail" id="email" type="email" class="validate" required="">
+                                <input name="email" placeholder="Enter Your E-mail" id="email" type="email" class="validate" required="">
                                 <label for="email">E-mail</label>
                                 <span class="helper-text" data-error="Your entered a wrong e-mail."></span>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input placeholder="Enter The Subject of Your Message" id="subject" type="text" class="validate" required>
+                                <input name="subject" placeholder="Enter The Subject of Your Message" id="subject" type="text" class="validate" required>
                                 <label for="subject">Subject</label>
                                 <span class="helper-text" data-error="The subject is required."></span>
                             </div>
                         </div>
                         <div class="input-field">
-                            <textarea placeholder="Enter Your Message" id="message" class="materialize-textarea" required></textarea>
+                            <textarea name="message" placeholder="Enter Your Message" id="message" class="materialize-textarea" required></textarea>
                             <label for="message">Message</label>
                             <span class="helper-text" data-error="Your message is required."></span>
                         </div>
