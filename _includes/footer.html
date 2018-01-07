@@ -1,64 +1,54 @@
-<footer class="grey darken-4">
+<footer class="black darken-4 white-text no-mb">
 	<div class="container">
 		<div class="row no-mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-sm-4 col-xs-6">
-						<p>
-							<a
-								href="https://facebook.com/"
-								target="blank"
-								class="btn btn-primary">
-								<i class="fa fa-facebook fa-fw"></i>
-								<span class="network-name">Facebook</span>
-							</a>
-						</p>
-					</div>
-					<div class="col-sm-4 col-xs-6">
-						<p>
-							<a
-								href="https://twitter.com/"
-								target="blank"
-								class="btn btn-info">
-								<i class="fa fa-twitter fa-fw"></i>
-								<span class="network-name">Twitter</span>
-							</a>
-						</p>
-					</div>
-					<div class="col-sm-4 col-xs-6">
-						<p>
-							<a
-								href="https://plus.google.com/id/about"
-								target="blank"
-								class="btn btn-danger ">
-								<i class="fa fa-google-plus fa-fw"></i>
-								<span class="network-name">Google+</span>
-							</a>
-						</p>
-					</div>
-				</div>
+			<div class="col s12">
+				<p class="center-align">
+					<a
+						href="https://github.com/{{ site.github }}"
+						target="blank"
+						class="btn-floating orange">
+						<i class="fa fa-github fa-fw"></i>
+					</a>
+					&nbsp;
+					<a
+						href="https://linkedin.com/u/{{ site.linkedin }}"
+						target="blank"
+						class="btn-floating orange">
+						<i class="fa fa-linkedin fa-fw"></i>
+					</a>
+					&nbsp;
+					<a
+						href="https://facebook.com/{{ site.facebook }}"
+						target="blank"
+						class="btn-floating orange">
+						<i class="fa fa-facebook fa-fw"></i>
+					</a>
+					&nbsp;
+					<a
+						href="https://twitter.com/{{ site.twitter }}"
+						target="blank"
+						class="btn-floating orange">
+						<i class="fa fa-twitter fa-fw"></i>
+					</a>
+					&nbsp;
+					<a
+						href="https://plus.google.com/{{ site.google }}"
+						target="blank"
+						class="btn-floating orange">
+						<i class="fa fa-google-plus fa-fw"></i>
+					</a>
+				</p>
+				<p class="center-align grey-text">
+					&copy; {{ "now" | date: "%Y" }} {{ site.name }}.<br>
+				</p>
 			</div>
 		</div>
-		<br>
-		<p>
-			<small><small>
-				&copy; 2017 {{ site.name }}.<br>
-				Website by <a class="white" target="blank" href="https://jgbneatdesign.com">JGB! Neat Design</a>.
-			</small></small>
-		</p>
 	</div>
 </footer>
 
 <!--JavaScript at end of body for optimized loading-->
 <!-- <script src="/assets/dist/js/jquery.min.js"></script> -->
-<script src="/assets/dist/js/materialize.min.js"></script>
-<script>
-	var elem = document.querySelector('.sidenav');
-	var instance = M.Sidenav.init(elem, {closeOnClick: true});
-	// $(function() {
-		// console.log('yeah')
-		// $(".sidenav-trigger").sideNav();
-	// });
-</script>
+<script src="/assets/vendor/js/materialize.min.js"></script>
+<script src="/assets/js/site.js"></script>
 </body>
 </html>

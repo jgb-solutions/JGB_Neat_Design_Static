@@ -3,8 +3,11 @@ email: jgbneatdesign@gmail.com
 description: Web and Mobile Development Services
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook: jeangerarddev
 twitter: jgbneatdesign
 github:  jgbneatdesign
+linked:
+google: +JeanGerardBousiquot_ND
 owner: Jean Gérard Bousiquot
 
 # Build settings
