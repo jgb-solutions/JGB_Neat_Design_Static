@@ -1,4 +1,8 @@
-<li><a href="#about" class="white-text"><i class="material-icons left white-text">info</i>About</a></li>
-<li><a href="#services" class="white-text"><i class="material-icons left white-text">build</i>Services</a></li>
-<li><a href="#work" class="white-text"><i class="material-icons left white-text">work</i>Work</a></li>
-<li><a href="#contact" class="waves-effect waves-light btn orange"><i class="material-icons left white-text">email</i>Contact</a></li>
+<li><a href="{% if page.url != '/' %}/{% endif %}#about" class="white-text">
+	<i class="material-icons left white-text">info</i>About</a></li>
+<li><a href="{% if page.url != '/' %}/{% endif %}#services" class="white-text">
+	<i class="material-icons left white-text">build</i>Services</a></li>
+<li><a href="{% if page.url != '/' %}/{% endif %}#work" class="white-text">
+	<i class="material-icons left white-text">work</i>Work</a></li>
+<li><a href="{% if page.url != '/' %}/{% endif %}#contact" class="waves-effect waves-light btn orange">
+	<i class="material-icons left white-text">email</i>Contact</a></li>
