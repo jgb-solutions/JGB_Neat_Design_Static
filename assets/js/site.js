@@ -7,5 +7,5 @@ var instance = M.Sidenav.init(sidenav, {closeOnClick: true});
 // var instance = M.Parallax.init(parallax);
 
 // Modals
- var modal = document.querySelector('.modal');
+ var modal = document.querySelectorAll('.modal');
  var instance = M.Modal.init(modal);
