@@ -1,0 +1,26 @@
+<!-- Modal Structure -->
+
+<div class="card">
+    <div class="card-image">
+        <a class="modal-trigger" href="#modal{{work.id}}">
+            <img src="/assets/images/works/{{work.logo}}" class="responsive-img" width="100%">
+        </a>
+        <div id="modal{{work.id}}" class="modal">
+            <img src="/assets/images/works/{{work.image}}" class="responsive-img">
+            <div class="modal-content">
+                <h4 class="center">{{work.title}}</h4>
+                <!-- <p>{{work.description}}</p> -->
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-light orange btn">OK</a>
+            </div>
+        </div>
+        <!-- <span class="card-title">{{work.title}}</span> -->
+    </div>
+    <!--<div class="card-content"></div> -->
+    {% if work.link %}
+        <div class="card-action">
+            <a style="font-size: .8em;" href="http://{{work.link}}" target="_blank"><i class="fa fa-globe"></i> {{work.link}}</a>
+        </div>
+    {% endif %}
+</div>

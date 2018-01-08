@@ -1,16 +1,35 @@
 <section id="work" class="section no-mb orange">
     <div class="container">
         <div class="row">
-            <div class="col m8 offset-m2">
-                <h2 class="center">My Portfolio</h2>
-                <h4 class="center">Some Works I've done</h4>
-                <div class="row">
-                </div>
-                <div class="divider grey"></div>
-                <h4 class="center">What I'm working on</h4>
-                <div class="row">
+            <div class="col m12">
+               <h2 class="center">My Portfolio</h2>
+					<div class="divider orange lighten-1"></div>
+               <h4 class="center orange-text text-lighten-5">Some Works I've done</h4>
+                	<div class="row">
+                    {% for work in site.data.works.done %}
+                    		{% capture modulo %}{{ forloop.index | modulo:3 }}{% endcapture %}
+               			<div class="col m4">
+                     		{% include partials/card.html %}
+                  		</div>
+                        {% if modulo == '0' %}
+                  			</div><div class="row">
+								{% endif %}
+							{% endfor %}
+						</div>
+						<div class="divider orange lighten-1"></div>
+						<h4 class="center orange-text text-lighten-5">What I'm working on</h4>
+						<div class="row">
+							{% for work in site.data.works.current %}
+                    		{% capture modulo %}{{ forloop.index | modulo:3 }}{% endcapture %}
+               			<div class="col m4">
+                     		{% include partials/card.html %}
+                  		</div>
+                        {% if modulo == '0' %}
+                  			</div><div class="row">
+								{% endif %}
+							{% endfor %}
+						</div>
                 </div>
             </div>
         </div>
-    </div>
 </section>

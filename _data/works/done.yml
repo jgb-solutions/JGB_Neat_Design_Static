@@ -1,0 +1,48 @@
+-   id: 01
+    title: Forum Télécom Haiti
+    logo: fth-logo.jpg
+    image: fth-preview.png
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: ForumTelecomHaiti.com
+
+-   id: 02
+    title: Haiti Numérique 2030
+    image: hn2030-preview.png
+    logo: hn2030-logo.png
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: HaitiNumerique2030.ht
+
+-   id: 03
+    title: Akolad Creations
+    image: akoladcreations-preview.png
+    logo: akolad-logo.jpg
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: AkoladCreations.com
+
+-   id: 04
+    title: Festival Film de Pétion-Ville
+    image: ffp-preview.png
+    logo: ffp-logo.png
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: festivalfilmdepetionville.com
+
+
+-   id: 05
+    title: Footkole
+    image: footkole-preview.png
+    logo: footkole-logo.png
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: footkole.com
+
+-   id: 06
+    title: Ti Kwen Pam
+    image: tkp-preview.png
+    logo: ti-kwen-pam-logo.jpg
+    description: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    detail: I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+    link: tikwenpam.net
