@@ -12,12 +12,18 @@ google: +JeanGerardBousiquot_ND
 owner: Jean Gérard Bousiquot
 
 # Build settings
-markdown: kramdown
-# theme: ""
+# markdown: kramdown
 # gems:
 #   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - assets/source
-  - node_modules
+exclude: [
+  "assets/source",
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "gulpfile.js",
+  "package.json",
+  "package-lock.json",
+  "yarn-error.log",
+  "yarn.lock",
+  "README.md"
+]

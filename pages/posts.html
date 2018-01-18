@@ -1,0 +1,20 @@
+---
+permalink: /posts/
+title: All The Posts
+---
+
+{% include header.html %}
+
+{% include navigation.html %}
+
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{post.url }}">{{post.title}}</a>
+		</li>
+	{% endfor %}
+</ul>
+
+{% include contact.html %}
+
+{% include footer.html %}
