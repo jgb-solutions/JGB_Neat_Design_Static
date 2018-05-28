@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://static.jgbnd.com/* https://jgb.solutions/:splat 301!
+https://jgbneatdesign.com/* https://jgb.solutions/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://jgbnd-static.netlify.com/* https://jgb.solutions/:splat 301!
