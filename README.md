@@ -1,4 +1,4 @@
-# Love and Hope Organization
+# JGB Neat Design BLO
 
-This repository hold the source code for the **Love and Hope Organization** website.
+This repository hold the source code for the **JGB Neat Design** website.
 It's built on **Jekyll** and hosted on Netlify via GitHub.
